@@ -136,7 +136,7 @@ if st.button("Predict"):
     if prediction == 1:
         st.success("✅ YES, YOU'RE ELIGIBLE TO TAKE LOAN")
     else:
-        st.error("❌ SORRY0, YOU'RE NOT ELIGIBLE TO TAKE LOAN")
+        st.error("❌ SORRY, YOU'RE NOT ELIGIBLE TO TAKE LOAN")
 
     st.metric(
         "Approval Probability",
