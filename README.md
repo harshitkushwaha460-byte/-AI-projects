@@ -1,4 +1,4 @@
-# -AI-Projects
+# AI-Projects
 This repository contain all my ai projects
 <br>
 1.I have built an rag based using api key chatbot which is titled E-COMMERCE  CHATBOT <br>
