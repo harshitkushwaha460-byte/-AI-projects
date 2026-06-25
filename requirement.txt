@@ -1,8 +1,5 @@
-i have used following things in chatbot code
-1.streamlit
-2.faiss
-3.numpy
-4.transformers
-5.google generativeai
-6.chunks
-7.prompting etc
+streamlit<br>
+pandas<br>
+numpy<br>
+scikit-learn<br>
+pickle<br>
