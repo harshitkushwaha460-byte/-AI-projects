@@ -118,6 +118,7 @@ def handle_exercise(query, user_data):
         Goal: {user_data['goal']}
 
         Give SHORT gym plan (3-4 lines).
+        Give exercise description.
         """
 
         return ask_llm(prompt)
@@ -160,7 +161,7 @@ def motivate_user(query, user_data):
 
 
 st.set_page_config(page_title="AI Gym Coach")
-st.title("🏋️ AI Gym Chatbot")
+st.title("🏋️ AI Gym Trainner")
 
 
 weight = st.sidebar.number_input("Weight", 30, 150, 70)
@@ -203,7 +204,7 @@ if query:
             response = motivate_user(query, user_data)
 
         else:
-            response = "Ask about workout, diet, or motivation 💪"
+            response = " Hi,Ask about workout, diet, or motivation 💪"
 
     st.chat_message("assistant").write(response)
     st.session_state.messages.append({"role": "assistant", "content": response})
