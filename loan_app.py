@@ -187,7 +187,7 @@ st.markdown(
         They should not be considered financial,legal, or lending advice.
     </div>
     """,
-    #unsafe_allow_html=True
+    unsafe_allow_html=True
 )
 
 
