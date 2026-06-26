@@ -72,7 +72,7 @@ st.subheader(
 
 applicant_income = st.number_input(
     "Applicant Income",
-    value=50000
+    placeholder="Enter Income"
 )
 
 co_income = st.number_input(
@@ -89,12 +89,12 @@ cibil_score = st.slider(
 
 existing_debt = st.number_input(
     "Existing Debt",
-    value=100000
+    placeholder="Enter existing Debt"
 )
 
 property_value = st.number_input(
     "Property Value",
-    value=3000000
+    placeholder="Enter Property Values"
 )
 
 loan_amount = st.number_input(
@@ -178,3 +178,18 @@ if st.button("Predict"):
     })
 
     st.dataframe(summary)
+st.markdown("---")
+st.markdown(
+    """
+    <div style='text-align:center; color:gray; font-size:14px;'>
+        Disclaimer: This AI-based prediction tool is for educational purposes only.
+        Actual loan approval decisions are determined by financial institutions.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
+
