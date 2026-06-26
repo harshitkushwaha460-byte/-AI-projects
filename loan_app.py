@@ -99,7 +99,7 @@ property_value = st.number_input(
 
 loan_amount = st.number_input(
     "Loan Amount",
-    value=500000
+    placeholder="Enter loan amount"
 )
 
 loan_term = st.selectbox(
