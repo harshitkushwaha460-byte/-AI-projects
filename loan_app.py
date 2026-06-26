@@ -108,6 +108,16 @@ loan_term = st.selectbox(
 )
 
 if st.button("Predict"):
+    if applicant_income <= 0:
+        st.error("Applicant Income must be greater than 0")
+        st.stop()
+    if loan_amount <= 0:
+        st.error("Loan Amount must be greater than 0")
+        st.stop()
+
+    if property_value <= 0:
+        st.error("Property Value must be greater than 0")
+        st.stop()
 
     user_data = pd.DataFrame({
         # "Age":[age],
