@@ -21,7 +21,7 @@ def chunk_text(text, chunk_size=300):
 
 @st.cache_resource
 def create_vector_store():
-    text = load_pdf("gym data.pdf")
+    text = load_pdf("gym_data.pdf")
     chunks = chunk_text(text)
 
     model = SentenceTransformer('all-MiniLM-L6-v2')
