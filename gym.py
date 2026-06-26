@@ -4,7 +4,7 @@ import numpy as np
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
-genai.configure(api_key="abc")
+api_key = st.secrets["GOOGLE_API_KEY"]
 
 
 def load_pdf(file):
