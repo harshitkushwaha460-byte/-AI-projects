@@ -184,9 +184,10 @@ st.markdown(
     <div style='text-align:center; color:gray; font-size:14px;'>
         Disclaimer: This AI-based prediction tool is for educational purposes only.
         Actual loan approval decisions are determined by financial institutions.
+        They should not be considered financial,legal, or lending advice.
     </div>
     """,
-    unsafe_allow_html=True
+    #unsafe_allow_html=True
 )
 
 
