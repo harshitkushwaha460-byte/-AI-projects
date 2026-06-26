@@ -3,4 +3,8 @@ pandas
 numpy
 scikit-learn==1.8.0
 xgboost
-faiss
+faiss-cpu
+pypdf
+sentence-transformers
+torch
+transformers
