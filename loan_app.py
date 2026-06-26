@@ -115,9 +115,6 @@ if st.button("Predict"):
         st.error("Loan Amount must be greater than 0")
         st.stop()
 
-    if property_value <= 0:
-        st.error("Property Value must be greater than 0")
-        st.stop()
 
     user_data = pd.DataFrame({
         # "Age":[age],
