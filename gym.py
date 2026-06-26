@@ -118,7 +118,7 @@ def handle_exercise(query, user_data):
         Goal: {user_data['goal']}
 
         Give SHORT gym plan (3-4 lines).
-        Give exercise description.
+        Give exercise description if asked.
         """
 
         return ask_llm(prompt)
