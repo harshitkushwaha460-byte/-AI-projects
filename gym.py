@@ -60,7 +60,7 @@ def ask_llm(prompt):
         - Be interactive
         - Ask questions if needed
         - Give each number of round per day in exercise
-        - Explain each exercise if user ask
+        - give description of each exercise if user ask
 
         Conversation:
         {history}
