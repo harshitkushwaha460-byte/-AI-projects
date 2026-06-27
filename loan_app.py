@@ -108,7 +108,7 @@ loan_term = st.selectbox(
 )
 
 if st.button("Predict"):
-    if applicant_income <= 0:
+    if applicant_income <= 1000:
         st.error("Applicant Income must be greater than 0")
         st.stop()
     if loan_amount <= 0:
